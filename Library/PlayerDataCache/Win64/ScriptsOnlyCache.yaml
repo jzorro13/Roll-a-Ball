@@ -2,10 +2,9 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CameraController
+    - Obstacle
     - PlayerController
     - Ratator
-    UnityEditor.TestRunner.dll:
-    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -13,7 +12,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Scenes/MiniGame.unity:
+    Assets/Scenes/MiniGame2.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -47,21 +46,23 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9326}
+      Script: {instanceID: 9270}
     - Class: 114
-      Script: {instanceID: 9332}
+      Script: {instanceID: 9334}
     - Class: 114
-      Script: {instanceID: 9338}
+      Script: {instanceID: 9340}
     - Class: 114
-      Script: {instanceID: 9382}
+      Script: {instanceID: 9346}
     - Class: 114
-      Script: {instanceID: 9384}
+      Script: {instanceID: 9390}
     - Class: 114
-      Script: {instanceID: 9714}
+      Script: {instanceID: 9392}
     - Class: 114
-      Script: {instanceID: 9892}
+      Script: {instanceID: 9722}
     - Class: 114
-      Script: {instanceID: 9948}
+      Script: {instanceID: 9900}
+    - Class: 114
+      Script: {instanceID: 9956}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -103,6 +104,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 5cf79bba8635256645929000856c77da
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Obstacle
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -313,6 +320,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.Advertisements.dll
+    namespaceName: UnityEngine.Advertisements
+    className: CallbackExecutor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.Advertisements.dll
+    namespaceName: UnityEngine.Advertisements.Editor
+    className: Placeholder
   - hash:
       serializedVersion: 2
       Hash: cf9f5cf2c3145a37ac07f00e50e460f9
@@ -543,7 +562,7 @@ ScriptsOnlyBuild:
     className: AnalyticsTracker
   - hash:
       serializedVersion: 2
-      Hash: ba7d017e3171d1970cbced635be3298c
+      Hash: e0baa8531feaf2455aa0e5cc05f66133
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController
@@ -735,5 +754,5 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 19
   scenePathNames:
-  - Assets/Scenes/MiniGame.unity
-  playerPath: C:/Users/Joel/git/Roll a Ball/Build/Roll a Ball.exe
+  - Assets/Scenes/MiniGame2.unity
+  playerPath: C:/Users/Joel/Desktop/Zorowitz_Joel_DIG_3480_Challenge1/Roll a Ball.exe
